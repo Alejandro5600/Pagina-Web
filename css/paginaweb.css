@@ -1,0 +1,564 @@
+
+/*General*/
+
+.fondo {
+  background-color: #33cccc;
+}
+
+.logo {
+  width: 100px;
+}
+
+.titulo {
+  width: 25%;
+  font-size: 250%;
+  text-align: center;
+  color: red;
+  border: 3px solid yellow;
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: -4%;
+}
+
+.buscador {
+  float: right;
+  margin-right: 10%;
+  margin-top: -5%;
+}
+
+ul {
+  font-size: 150%;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  margin-top: 4%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 14px 16px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.social {
+	position: fixed;
+	left: 0;
+	top: 250px;
+	z-index: 2000;
+}
+
+.social ul {
+	list-style: none;
+}
+
+.social ul li a {
+  padding: 10px 15px;
+	display: inline-block;
+	color:#fff;
+	background: #000;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+.social ul li .icon-facebook {background:#3b5998; }
+.social ul li .icon-twitter {background: #00abf0; }
+.social ul li .icon-googleplus {background: #d95232; }
+.social ul li .icon-pinterest {background: #ae181f; }
+.social ul li .icon-mail {background: #666666; }
+
+.social ul li a:hover {
+  padding: 10px 30px;
+ 	background: red;
+}
+
+
+
+
+/*Inici*/
+
+.inici1 {
+  float: left;
+  font-size: 150%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.calendario {
+  float: right;
+  width: 30%;
+  font-family: arial;
+  border: 4px solid red;
+  border-collapse: collapse;
+  margin-top: 3%;
+}
+
+.calendario caption {
+  text-align: right;
+  caption-side: bottom;
+}
+
+.calendario th {
+  width: 15px;
+  height: 15px;
+  border: 1px solid blue;
+  background: #A9A9A9;
+  color: blue;
+}
+
+.calendario td, th {
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.calendario .amarillo {
+  background: yellow;
+}
+
+.foto img {
+  float: right;
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid red;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 100px;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+
+
+/*Història*/
+
+.titulohistoria1 {
+  font-size: 250%;
+  text-align: center;
+  color: yellow;
+}
+
+.titulohistoria2 {
+  font-size: 200%;
+  text-align: left;
+  color: yellow;
+  margin-left: 5%;
+}
+
+.historia p {
+  font-size: 150%;
+  text-align: justify;
+  margin-left: 5%;
+}
+
+.fotohistoria img {
+  float: right;
+  width: 500px;
+  border-radius: 50%;
+  border: 5px solid red;
+  margin-right: 5%;
+  margin-top: -15%;
+}
+
+
+
+
+/*Catàlog*/
+
+.cuerda {
+  font-size: 250%;
+  text-align: center;
+  color: yellow;
+}
+
+.percusion {
+  font-size: 250%;
+  text-align: center;
+  color: yellow;
+  margin-top: 35%;
+}
+
+.viento {
+  font-size: 250%;
+  text-align: center;
+  color: yellow;
+  margin-top: 35%;
+}
+
+.cuerda1 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 17%;
+}
+
+.cuerda1 p {
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.cuerda1 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+.cuerda2 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 3%;
+}
+
+.cuerda2 p {
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.cuerda2 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+.cuerda3 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 3%;
+}
+
+.cuerda3 p {
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.cuerda3 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+
+.percusion1 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 17%;
+}
+
+.percusion1 p {
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.percusion1 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+.percusion2 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 3%;
+}
+
+.percusion2 p {
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.percusion2 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+.percusion3 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 3%;
+}
+
+.percusion3 p{
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.percusion3 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+.viento1 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 17%;
+}
+
+.viento1 p{
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.viento1 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+.viento2 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 3%;
+}
+
+.viento2 p {
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.viento2 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+.viento3 {
+  float: left;
+  width: 400px;
+  padding: 20px;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 3%;
+}
+
+.viento3 p {
+  font-size: 150%;
+  text-align: center;
+  color: #66ffff;
+}
+
+.viento3 img {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  border: 5px solid yellow;
+  outline: 3px solid #66ffff;
+}
+
+
+
+
+/*Serveis*/
+
+.manteniment1 h1 {
+  font-size: 220%;
+  text-align: center;
+  color: yellow;
+}
+
+.manteniment1 p {
+  font-size: 150%;
+  text-align: justify;
+  margin-left: 25%;
+}
+
+.manteniment2 h1 {
+  font-size: 220%;
+  text-align: center;
+  color: yellow;
+}
+
+.manteniment2 p {
+  font-size: 150%;
+  text-align: justify;
+  margin-left: 25%;
+}
+
+
+
+
+/*Racó de la fama*/
+
+.tituloraco {
+  font-size: 250%;
+  text-align: center;
+  color: yellow;
+}
+
+.famosos {
+  float: left;
+  width: 80%;
+  border-collapse: collapse;
+  border: 10px solid black;
+  margin-left: 10%;
+}
+
+.famosos th {
+  width: 5%;
+  font-size: 200%;
+  text-align: center;
+  padding: 30px;
+  border: 3px solid #008000;
+  background: #ffddcc;
+}
+
+.famosos td {
+  width: 5%;
+  font-size: 150%;
+  text-align: center;
+  padding: 30px;
+  border: 3px solid #008000;
+  font-weight: bold;
+  background: #e6ffe6;
+}
+
+.famosos img {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+
+
+
+/*Contacta'm*/
+
+.trobem {
+  font-size: 150%;
+  margin-left: 30%;
+}
+
+.hablanos {
+  float: left;
+  color: red;
+  margin-top: 4%;
+}
+
+.mapa {
+  float: left;
+  width: 400px;
+  height: 400px;
+  border: 2px solid red;
+  margin: 5em auto;
+  margin-top: 10%;
+  margin-left: -20%;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contacte {
+  font-size: 150%;
+  margin-right: 3%;
+}
+
+.contacte1 {
+  float: right;
+  color: red;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+.formulario {
+  float: right;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+
+
+.suscribirse {
+  margin-top: 32%;
+}
